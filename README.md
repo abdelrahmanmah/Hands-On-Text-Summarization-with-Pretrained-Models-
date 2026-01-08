@@ -1,6 +1,8 @@
+![Text Summarization Banner](images/banner.png)
+
 # Text Summarization with Pretrained Models 📝🤖
 
-## Project Overview
+## Project Overview 🎯
 This project is an **educational, hands-on notebook** designed to teach the fundamentals of **Abstractive Text Summarization** using state-of-the-art pretrained **Transformer models** from Hugging Face.
 
 The goal is to demystify complex NLP concepts by providing a simple, step-by-step guide that allows beginners and students to build their own summarization pipeline and interact with it through a web interface.
@@ -8,12 +10,17 @@ The goal is to demystify complex NLP concepts by providing a simple, step-by-ste
 ## What are Pretrained Models? 🧠
 Pretrained models are Deep Learning models that have been previously trained on massive datasets (broadly "reading the internet") to learn the general rules, grammar, and context of human language.
 
+![Transfer Learning Concept](images/transfer_learning.png)
+
 **Why are they useful in NLP?**
 *   **Transfer Learning**: Instead of training a model from scratch (which takes weeks and massive compute power), we can "fine-tune" these smart models for specific tasks.
 *   **Performance**: They achieve state-of-the-art results on translation, summarization, and question-answering tasks.
 
 ## What is Text Summarization? ✨
 Text summarization is the automated process of shortening a text document while retaining its main ideas. This project focuses on **Abstractive Summarization**:
+
+![Extractive vs Abstractive Summarization](images/summarization_types.png)
+
 *   **Abstractive**: The model generates *new sentences* to rephrase the core meaning, similar to how a human would write a summary.
 *   **Extractive**: Merely selects and copies important existing sentences from the text.
 
@@ -26,7 +33,7 @@ Text summarization is the automated process of shortening a text document while 
 We explore three distinct Transformer models in this notebook:
 
 1.  **BART (English)** 🇺🇸
-    *   developed by Facebook.
+    *   Developed by Facebook.
     *   Combines the bidirectional understanding of BERT with the generative capabilities of GPT. Great for general summarization.
 2.  **PEGASUS (English – News)** 📰
     *   Developed by Google.
@@ -44,8 +51,8 @@ We explore three distinct Transformer models in this notebook:
 ## Technologies & Tools 🛠️
 *   **Python** 🐍
 *   **Hugging Face Transformers** 🤗
-*   **Gradio** (for the web interface) 🖥️
-*   **Pandas** (for data handling) 📊
+*   **Gradio** (for the web interface) ⚡
+*   **Pandas** (for data handling) �
 *   **PyTorch** 🔥
 
 ## How to Run the Project 🏃‍♂️
@@ -69,6 +76,7 @@ We explore three distinct Transformer models in this notebook:
 
 ## Project Structure 📂
 *   `hands-on-text-summarization.ipynb`: The main educational notebook containing all code, explanations, and the Gradio app.
+*   `images/`: Folder containing assets for this README.
 *   `README.md`: This documentation file.
 
 ## Educational Purpose 🎓
